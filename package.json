@@ -1,0 +1,22 @@
+{
+  "name": "hello-npm-practice",
+  "version": "1.0.0",
+  "description": "npmパッケージの作り方を学ぶ練習用パッケージ（ライブラリ + CLI）",
+  "keywords": ["practice", "learning", "hello", "cli"],
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "hello-npm": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/cli.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
